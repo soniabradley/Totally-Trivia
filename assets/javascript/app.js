@@ -13,9 +13,9 @@ var questions = [{
     answers: ["Audrey Hepburn", "Katharine Hepburn", "Vivien Leigh", "Marilyn Monroe", "Ann Rutherford"],
     correctAnswer: "Marilyn Monroe"
 }, {
-    question: "During what year was Coco Chanel was born?",
-    answers: ["1883", "1983", "1953", "1963", "1923"],
-    correctAnswer: "1883"
+    question: "Who is Coco Chanel was born?",
+    answers: ["chocolate bar", "cake", "perfume", "designer", "dress"],
+    correctAnswer: "designer"
 }, {
     question: "Who famously said 'Girls can do everything men can do...just backwards and in heels.'",
     answers: ["Eva Gardner", "Ginger Rogers", "Elizabeth Taylor", "Madonna", "Fred Astaire"],
