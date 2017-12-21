@@ -1,0 +1,58 @@
+body {
+	background: url('../images/monroe.jpg');
+	background-size: 100%;	
+}
+
+#title {
+	text-align: center;	
+	font-size: 50px;
+	color: #345e51;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	}
+
+#start{
+	color: #34495e;
+	font-size: 25px;
+	background-color: #c4cdd6;
+	border: 1px solid #34495e;
+	background-size: 100%;
+	width: 15%; 
+	height: 60%;
+	display: block;
+	margin: 0% 40%;
+	}
+
+#counter{
+		float: center;
+}
+
+
+#subwrapper {
+	border: none;
+	font-size: 25px;
+	background-color: #ecf0f1;
+    color: #444e59;
+	text-align: left;
+	margin: 5%;
+	border: 1px solid black;
+	display: inline;
+	font-size: 25px;
+	color: #34495e;
+	font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+
+#score {
+	font-size: 20px;
+	margin-top: 5%;
+	color: #34495e;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: left;
+	}
+
+/* #subwrapper {
+	display: inline;
+	position: relative;
+} */
