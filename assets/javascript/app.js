@@ -13,7 +13,7 @@ var questions = [{
     answers: ["Audrey Hepburn", "Katharine Hepburn", "Vivien Leigh", "Marilyn Monroe", "Ann Rutherford"],
     correctAnswer: "Marilyn Monroe"
 }, {
-    question: "Who is Coco Chanel was born?",
+    question: "Who is Coco Chanel?",
     answers: ["chocolate bar", "cake", "perfume", "designer", "dress"],
     correctAnswer: "designer"
 }, {
