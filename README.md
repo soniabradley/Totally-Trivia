@@ -26,4 +26,3 @@ Included is a countdown timer.
 app.js
 subwrapper will remove start button and replace with questions
 $('#subwrapper').remove();
-<h2> are headers </h2>
