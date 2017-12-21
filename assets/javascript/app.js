@@ -107,7 +107,7 @@ var game = {
     result: function(){
         clearInterval(timer);
         $('#subwrapper h2').remove();
-        $('#subwrapper').html("<h2>All done!</h2>");
+        $('#subwrapper').html("<h3>All done!</h3>");
         // print all correct and incorrect answers
         $('#subwrapper').append("<h3>Correct Answers: "+this.correct+"</h3>");
         $('#subwrapper').append("<h3>Incorrect Answers: "+this.incorrect+"</h3>");
