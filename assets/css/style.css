@@ -1,6 +1,6 @@
 body {
 	background: url('../images/monroe.jpg');
-	background-size: 100%;	
+	background-size: 200%;	
 }
 
 #title {
@@ -17,17 +17,23 @@ body {
 	font-size: 25px;
 	background-color: #c4cdd6;
 	border: 1px solid #34495e;
-	background-size: 100%;
+	/* background-size: 100%; */
 	width: 15%; 
 	height: 60%;
 	display: block;
 	margin: 0% 40%;
 	}
 
-#counter{
-		float: center;
+h2 {
+	text-align: center;
+	padding: 8px;
+	font-size: 30px;
 }
 
+h3 {
+	text-align: center;
+	padding: 10px;	
+}
 
 #subwrapper {
 	border: none;
@@ -43,8 +49,11 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	}
 
+counter{
+		float: center;
+}
 
-#score {
+score {
 	font-size: 20px;
 	margin-top: 5%;
 	color: #34495e;
@@ -52,7 +61,7 @@ body {
 	text-align: left;
 	}
 
-/* #subwrapper {
+subwrapper {
 	display: inline;
 	position: relative;
-} */
+}
