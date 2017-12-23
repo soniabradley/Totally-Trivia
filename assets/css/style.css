@@ -1,14 +1,15 @@
 body {
 	background: url('../images/monroe.jpg');
-	background-size: 200%;	
+	background-size: 200%;
+	padding: 10px;	
 }
 
 #title {
 	text-align: center;	
-	font-size: 50px;
+	font-size: 60px;
 	color: #345e51;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 5px;
 	}
 
@@ -17,17 +18,17 @@ body {
 	font-size: 25px;
 	background-color: #c4cdd6;
 	border: 1px solid #34495e;
-	/* background-size: 100%; */
 	width: 15%; 
 	height: 60%;
 	display: block;
-	margin: 0% 40%;
+	margin: auto;
 	}
 
 h2 {
 	text-align: left;
 	padding: 8px;
 	font-size: 30px;
+
 }
 
 h3 {
@@ -48,20 +49,3 @@ h3 {
 	color: #34495e;
 	font-family: 'Open Sans Condensed', sans-serif;
 	}
-
-counter{
-		float: center;
-}
-
-score {
-	font-size: 20px;
-	margin-top: 5%;
-	color: #34495e;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: left;
-	}
-
-subwrapper {
-	display: inline;
-	position: relative;
-}

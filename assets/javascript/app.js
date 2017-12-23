@@ -6,28 +6,28 @@ $('#start').on('click', function () {
 
 var questions = [{
     question: "Where was the movie 'Gone with the Wind', filmed?",
-    answers: ["New York", "Hollywood", "South Carolina", "Los Angeles", "Atlanta"],
-    correctAnswer: "Atalnta"
+    answers: ["New York   ", "Hollywood   ", "South Carolina   ", "Los Angeles   ", "Atlanta   "],
+    correctAnswer: "Atalnta   "
 }, {
-    question: "Which Actress was in the 1959 hit movie, Some Like Hot?",
-    answers: ["Audrey Hepburn", "Katharine Hepburn", "Vivien Leigh", "Marilyn Monroe", "Ann Rutherford"],
-    correctAnswer: "Marilyn Monroe"
+    question: "Which Actress was in the 1959 hit movie, 'Some Like Hot'?",
+    answers: ["Audrey Hepburn   ", "Katharine Hepburn   ", "Vivien Leigh   ", "Marilyn Monroe   ", "Ann Rutherford   "],
+    correctAnswer: "Marilyn Monroe   "
 }, {
-    question: "Who is Coco Chanel?",
-    answers: ["chocolate bar", "cake", "perfume", "designer", "dress"],
-    correctAnswer: "designer"
+    question: "What is Coco Chanel?",
+    answers: ["chocolate bar   ", "cake   ", "perfume   ", "designer   ", "dress   "],
+    correctAnswer: "designer   "
 }, {
     question: "Who famously said 'Girls can do everything men can do...just backwards and in heels.'",
-    answers: ["Eva Gardner", "Ginger Rogers", "Elizabeth Taylor", "Madonna", "Fred Astaire"],
-    correctAnswer: "Ginger Rogers"
+    answers: ["Eva Gardner   ", "Ginger Rogers   ", "Elizabeth Taylor   ", "Madonna   ", "Fred Astaire   "],
+    correctAnswer: "Ginger Rogers   "
 }, {
     question: "What is Freddie Mercury?",
-    answers: ["car", "planet", "metal", "singer", "rock"],
-    correctAnswer: "singer"
+    answers: ["car   ", "planet   ", "metal   ", "singer   ", "rock   "],
+    correctAnswer: "singer   "
 }, {
     question: "How old would Kurt Cobain be today, 2017?",
-    answers: ["50", "48", "51", "65", "55"],
-    correctAnswer: "50"
+    answers: ["50   ", "48   ", "51   ", "65   ", "55   "],
+    correctAnswer: "50   "
 }];
 
 var game = {
@@ -64,42 +64,42 @@ var game = {
             if($(this).val()==questions[0].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         $.each($("input[name='question-1']:checked"),function() {
             if($(this).val()==questions[1].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         $.each($("input[name='question-2']:checked"),function() {
             if($(this).val()==questions[2].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         $.each($("input[name='question-3']:checked"),function() {
             if($(this).val()==questions[3].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         $.each($("input[name='question-4']:checked"),function() {
             if($(this).val()==questions[4].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         $.each($("input[name='question-5']:checked"),function() {
             if($(this).val()==questions[5].correctAnswer){
                 game.correct++;
             } else {
-                game.incoreect++;
+                game.incorrect++;
             }
         });
         this.result();
