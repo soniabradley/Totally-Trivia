@@ -1,30 +1,17 @@
-# Totaly Trivia Hmk 5
-Overview
+# Totaly Trivia
 Trivia game using JavaScript for the logic and jQuery to manipulate HTML.
 
-Included a script tag with the jQuery library.
+The game ends when the time runs out. The final page will reveal the number of questions that players answer correctly and incorrectly.
+* [Open Browser](https://soniabradley.github.io/Totally-Trivia/) and pick one answer per question before your time runs out.
 
-Created a folder inside of the TriviaGame folder called assets.
+# Built With
+* jQuery [on() Method](https://www.w3schools.com/jquery/event_on.asp) method attaches one or more event handlers for the selected elements and child elements.
+* Timer [setInterval() Method](https://www.w3schools.com/jsref/met_win_setinterval.asp) calls a function or evaluates an expression at specified intervals (in milliseconds).
+* [each() Method](https://www.w3schools.com/jquery/misc_each.asp)
+specifies a function to run for each matched element.
 
-Inside assets, created three folders: css, javascript, images
+# To Do
+* Add more style!
 
-In my css folder, creates a style.css and reset.css file.
-In my javascript folder, created an app.js file; here I wrote all of my JavaScript and jQuery.
-In my images folder, are the images I to used in this exercise.
-
-Createe a trivia form with multiple choice or true/false options.
-
-The player will have a limited amount of time to finish the quiz.
-
-The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
-Don't let the player pick more than one answer per question.
-
-Included is a countdown timer.
-
-# Concepts and Highlights
-
-app.js
-subwrapper will remove start button and replace with questions
-$('#subwrapper').remove();
-
-https://soniabradley.github.io/Totally-Trivia/
+# Author
+Sonia Molina Bradley

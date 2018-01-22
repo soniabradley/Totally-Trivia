@@ -28,6 +28,7 @@ h2 {
 	text-align: left;
 	padding: 8px;
 	font-size: 30px;
+	color: red;
 
 }
 
@@ -40,7 +41,6 @@ h3 {
 	border: none;
 	font-size: 25px;
 	background-color: #ecf0f1;
-    color: #444e59;
 	text-align: left;
 	margin: 5%;
 	border: 1px solid black;
